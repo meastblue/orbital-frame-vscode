@@ -1,0 +1,76 @@
+{
+  "name": "orbital-frame",
+  "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#0B1426",
+    "theme": "dark"
+  },
+  "preview": true,
+  "author": "Massinissa Amalou",
+  "license": "MIT",
+  "publisher": "meastblue",
+  "displayName": "Orbital Frame Themes",
+  "description": "A collection of themes inspired by Orbital Frames - Featuring Jehuty, Anubis, and Nephtis in both dark and light variants",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meastblue/orbital-frames-themes.git"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "orbital frame",
+    "jehuty",
+    "anubis",
+    "nephtis",
+    "space",
+    "mecha",
+    "dark theme",
+    "light theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Jehuty Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/jehuty-dark.json"
+      },
+      {
+        "label": "Jehuty Light",
+        "uiTheme": "vs",
+        "path": "./themes/jehuty-light.json"
+      },
+      {
+        "label": "Anubis Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/anubis-dark.json"
+      },
+      {
+        "label": "Anubis Light",
+        "uiTheme": "vs",
+        "path": "./themes/anubis-light.json"
+      },
+      {
+        "label": "Nephtis Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nephtis-dark.json"
+      },
+      {
+        "label": "Nephtis Light",
+        "uiTheme": "vs",
+        "path": "./themes/nephtis-light.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package": "vsce package --no-dependencies",
+    "publish": "vsce publish --no-dependencies"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.6.0"
+  }
+}
