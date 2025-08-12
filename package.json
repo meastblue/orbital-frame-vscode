@@ -11,10 +11,10 @@
   "publisher": "meastblue",
   "displayName": "Orbital Frame Themes",
   "description": "A collection of themes inspired by Orbital Frames - Featuring Jehuty, Anubis, and Nephtis in both dark and light variants",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/meastblue/orbital-frames-themes.git"
+    "url": "https://github.com/meastblue/orbital-frame-vscode"
   },
   "engines": {
     "vscode": "^1.74.0"
